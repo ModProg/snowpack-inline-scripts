@@ -1,0 +1,19 @@
+{
+  "name": "snowpack-inline-scripts",
+  "version": "0.1.0",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/ModProg/snowpack-inline-scripts",
+  "author": "Roland Fredenhagen <dev@modprog.de>",
+  "dependencies": {
+    "inline-scripts": "ModProg/inline-scripts#my_changes"
+  },
+  "devDependencies": {
+    "snowpack": "^3.8.8",
+    "typescript": "^4.5.5"
+  }
+}
